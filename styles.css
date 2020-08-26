@@ -1,0 +1,184 @@
+body {
+    margin: 0px;
+    font-family: 'Lato';
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: black;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Introduction Section Styling */
+.introduction{
+    background-image: url(./images/headliner.jpg);
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat-y;
+    margin: 75px 0px 0px 0px;
+}
+
+.introduction h1 {
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+@media (max-width: 950px){
+    h1 {
+        position: relative;
+    }
+}
+
+/* About Section Styling */
+
+.about {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.about-box {
+    background-color: white;
+    width: 35%;
+    display: inline-block;
+    border-radius: 2%;
+    vertical-align: middle;
+}
+
+.about-description {
+    margin-left: 15%;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.about-photo {
+    margin-right: 10%;
+}
+
+@media (max-width: 1000px) {
+    .about-box{
+        width: 100%;
+        display: block;
+    }
+
+    .about-description{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about-photo {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+/* Interests Section Styling */
+
+.interests {
+    padding-top: 20px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.section-h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.carousel {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.carousel-control {
+    background-color: lightgrey;
+}
+
+.carousel-img {
+    display: block;
+    height: 50%;
+    margin: 10px auto;
+
+}
+
+.carousel-item {
+    padding: 5% 30%;
+}
+
+.carousel-item p {
+    margin-top: 20px;
+}
+
+/* Skill Section Styling */
+
+.skills {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.skill-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.fa-star{
+    color: white;
+}
+
+.first-star {
+    margin-left: 10px;
+}
+
+/* Contact Section Styling */
+
+.contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-logos {
+    margin: 40px auto;
+    display: block;
+}
+
+.contact-logo{
+    margin-right: 30px;
+    font-size: 4rem;
+    color: grey;
+}
+
+.contact-logo:hover {
+    color: black;
+}
+
+.footer {
+    color: grey;
+    font-size: 0.75rem;
+}
